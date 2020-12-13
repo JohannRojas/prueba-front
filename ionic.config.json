@@ -1,0 +1,8 @@
+{
+  "name": "pruebaFront",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "74238bbc"
+}
