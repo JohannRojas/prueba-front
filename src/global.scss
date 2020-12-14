@@ -1,26 +1,371 @@
-/*
- * App Global CSS
- * ----------------------------------------------------------------------------
- * Put style rules here that you want to apply globally. These styles are for
- * the entire app and not just one component. Additionally, this file can be
- * used as an entry point to import other CSS/Sass files to be included in the
- * output CSS.
- * For more information on global stylesheets, visit the documentation:
- * https://ionicframework.com/docs/layout/global-stylesheets
- */
+ion-router-outlet {
+    padding: 24px;
+    background: #f6f6f6 !important;
+}
 
-/* Core CSS required for Ionic components to work properly */
-@import "~@ionic/angular/css/core.css";
+.HolaCamila {
+    /* Hola, Camila */
+    position: static;
+    width: 268px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    /* Subtitle 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    /* 75% */
+    color: #58506B;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
 
-/* Basic CSS for apps built with Ionic */
-@import "~@ionic/angular/css/normalize.css";
-@import "~@ionic/angular/css/structure.css";
-@import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+.notification {
+    /* notifications_24px */
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 327px;
+    top: 35px;
+    background: url('../resources/notifications_24px.png');
+}
 
-/* Optional CSS utils that can be commented out */
-@import "~@ionic/angular/css/padding.css";
-@import "~@ionic/angular/css/float-elements.css";
-@import "~@ionic/angular/css/text-alignment.css";
-@import "~@ionic/angular/css/text-transformation.css";
-@import "~@ionic/angular/css/flex-utils.css";
+.invest-card {
+    position: absolute;
+    width: 327px;
+    height: 260px;
+    left: 24px;
+    top: 89px;
+}
+
+.invest-card .ahorro-img {
+    position: absolute;
+    width: 170px;
+    height: 180px;
+    right: 10px;
+    top: 0px;
+    background: url("../resources/invest_card.png");
+}
+
+.invest-card .value-card {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 30px;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED;
+    background-blend-mode: multiply, normal;
+    /* Card shadow 1 */
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+}
+
+.invest-card .value-card .eres-estratega {
+    position: absolute;
+    width: 112px;
+    height: 50px;
+    left: 25px;
+    top: 30px;
+    /* Subtitle 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* White */
+    color: #FFFFFF;
+}
+
+.invest-card .value-card .tu-saldo {
+    position: absolute;
+    width: 56px;
+    height: 21px;
+    left: 20px;
+    bottom: 69px;
+    /* Normal 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    /* White */
+    color: #FFFFFF;
+}
+
+.invest-card .value-card .tu-saldo-value {
+    position: absolute;
+    width: 185px;
+    height: 49px;
+    left: 20px;
+    bottom: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* White */
+    color: #FFFFFF;
+}
+
+.invest-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    width: 327px;
+    height: 102px;
+    left: 24px;
+    top: 369px;
+    /* White */
+    background: #FFFFFF;
+    /* Card shadow soft */
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+}
+
+.invest-summary .frame58 {
+    /* Frame 58 */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 285px;
+    height: 21px;
+    left: 21px;
+    top: 61px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.invest-summary .frame58 .value-status {
+    /* value_status */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 132px;
+    height: 21px;
+    left: 153px;
+    top: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 23px 0px;
+}
+
+.invest-summary .frame58 .value-status .text {
+    /* -$30.000 */
+    position: static;
+    width: 132px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    /* Normal 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.01em;
+    /* 75% */
+    color: #58506B;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.invest-summary .frame58 .type-date {
+    /* type_date */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 130px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 23px 0px;
+}
+
+.invest-summary .frame58 .type-date .text {
+    /* Rendimiento */
+    position: static;
+    width: 130px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    /* Normal 1 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    /* 75% */
+    color: #58506B;
+}
+
+.invest-summary .divider {
+    /* divider */
+    position: static;
+    width: 287px;
+    height: 0px;
+    left: 20px;
+    top: 51px;
+    /* Background */
+    border: 1px solid #FAF9FD;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.invest-summary .frame55 {
+    /* Frame 55 */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 285px;
+    height: 21px;
+    left: 21px;
+    top: 20px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.invest-summary .frame55 .value-status {
+    /* value_status */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 132px;
+    height: 21px;
+    left: 153px;
+    top: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 23px 0px;
+}
+
+.invest-summary .frame55 .value-status .text {
+    /* $1.600.000 */
+    position: static;
+    width: 132px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    /* Normal 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.01em;
+    /* 75% */
+    color: #58506B;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.invest-summary .frame55 .type-date {
+    /* type_date */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 130px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 23px 0px;
+}
+
+.invest-summary .frame55 .type-date .text {
+    /* Inversión */
+    position: static;
+    width: 130px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    /* Normal 1 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    /* 75% */
+    color: #58506B;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
