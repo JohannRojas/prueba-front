@@ -1,10 +1,11 @@
-ion-router-outlet {
-    padding: 24px;
-    background: #f6f6f6 !important;
+ion-router-outlet,
+ion-content {
+    --background: #f6f6f6;
 }
 
 .HolaCamila {
     /* Hola, Camila */
+    padding: 24px;
     position: static;
     width: 268px;
     height: 25px;
@@ -126,7 +127,7 @@ ion-router-outlet {
     align-items: center;
     padding: 20px;
     position: absolute;
-    width: 327px;
+    width: 287px;
     height: 102px;
     left: 24px;
     top: 369px;
@@ -359,7 +360,7 @@ ion-router-outlet {
     line-height: 21px;
     /* identical to box height, or 150% */
     display: flex;
-    align-items: center;
+    align-items: right;
     /* 75% */
     color: #58506B;
     /* Inside Auto Layout */
@@ -368,4 +369,641 @@ ion-router-outlet {
     align-self: stretch;
     flex-grow: 0;
     margin: 0px 0px;
+}
+
+.tus-metas {
+    /* Tus metas */
+    position: absolute;
+    width: 271px;
+    height: 25px;
+    left: 24px;
+    top: 511px;
+    margin-top: 15px;
+    /* Subtitle 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* 75% */
+    color: #58506B;
+}
+
+.add-circle-outline {
+    /* add_circle_outline_24px */
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 327px;
+    top: 511px;
+    margin-top: 15px;
+    background: url('../resources/add_circle_outline_24px.png');
+}
+
+.goal-view1 {
+    /* goal_view/home */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    left: 24px;
+    top: 556px;
+    /* White */
+    background: #FFFFFF;
+    /* Card shadow soft */
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+}
+
+.goal-view1 .data {
+    /* data */
+    position: static;
+    width: 118px;
+    height: 50px;
+    left: 20px;
+    top: 132px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.goal-view1 .data .invest-donut {
+    /* invest/s_donut */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 132px;
+    background-image: url("../resources/goal_view/invest/s_donut20.png");
+}
+
+.goal-view1 .data .blue-text {
+    /* $1.630.000 */
+    position: absolute;
+    width: 63px;
+    height: 16px;
+    left: 75px;
+    top: 142px;
+    /* Caption 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+}
+
+.goal-view1 .data .purple-text {
+    /* $8.000.000 */
+    position: absolute;
+    width: 63px;
+    height: 14px;
+    left: 75px;
+    top: 158px;
+    /* Menu 1 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    /* 50% */
+    color: #817699;
+}
+
+.goal-view1 .vector {
+    /* Vector 4 */
+    position: static;
+    width: 118px;
+    height: 0px;
+    left: 20px;
+    top: 122px;
+    /* Background */
+    border: 1px solid #FAF9FD;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.goal-view1 .viaje-canarias {
+    /* Viaje a Islas Canarias */
+    position: static;
+    width: 118px;
+    height: 42px;
+    left: 20px;
+    top: 70px;
+    /* Normal 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    /* 50% */
+    color: #817699;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.goal-view1 .img {
+    /* 40x40 */
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    background-image: url('../resources/goal_view/IMG.png');
+}
+
+.goal-view2 {
+    /* goal_view/home */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    left: 193px;
+    top: 556px;
+    /* White */
+    background: #FFFFFF;
+    /* Card shadow soft */
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+}
+
+.goal-view2 .data {
+    /* data */
+    position: static;
+    width: 118px;
+    height: 50px;
+    left: 20px;
+    top: 132px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.goal-view2 .data .invest-donut {
+    /* chart/back */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 132px;
+    /* Background */
+    background-image: url('../resources/goal_view/invest/s_donut0.png');
+}
+
+.goal-view2 .data .blue-text {
+    /* $0 */
+    position: absolute;
+    width: 63px;
+    height: 16px;
+    left: 75px;
+    top: 142px;
+    /* Caption 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+}
+
+.goal-view2 .data .purple-text {
+    /* $7.000.000 */
+    position: absolute;
+    width: 63px;
+    height: 14px;
+    left: 75px;
+    top: 158px;
+    /* Menu 1 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    /* 50% */
+    color: #817699;
+}
+
+.goal-view2 .vector {
+    /* Vector 4 */
+    position: static;
+    width: 118px;
+    height: 0px;
+    left: 20px;
+    top: 122px;
+    /* Background */
+    border: 1px solid #FAF9FD;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.goal-view2 .macbook {
+    /* Macbook Pro */
+    position: static;
+    width: 118px;
+    height: 42px;
+    left: 20px;
+    top: 70px;
+    /* Normal 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    /* 50% */
+    color: #817699;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.goal-view2 .img {
+    /* 40x40 */
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    background-image: url('../resources/goal_view/mac.png');
+}
+
+.tu-portafolio {
+    /* Conoce tu portafolio */
+    position: absolute;
+    width: 271px;
+    height: 25px;
+    left: 24px;
+    top: 798px;
+    /* Subtitle 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* 75% */
+    color: #58506B;
+}
+
+.status {
+    /* Status/Domicilio */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 10px;
+    position: absolute;
+    width: 64px;
+    height: 21px;
+    right: 24px;
+    top: 800px;
+    /* Success Soft */
+    background: #E4FFEE;
+    /* Success */
+    border: 0.5px solid #41CF69;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.status .estratega {
+    /* Estratega */
+    position: static;
+    width: 44px;
+    height: 15px;
+    left: 10px;
+    top: 3px;
+    /* Menu 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* Success */
+    color: #41CF69;
+}
+
+.portafolio-view {
+    /* portfolio_view/home */
+    position: absolute;
+    width: 327px;
+    height: 229px;
+    left: 24px;
+    top: 843px;
+    /* White */
+    background: #FFFFFF;
+    /* Card shadow soft */
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+}
+
+.portafolio-view .frame74 {
+    /* Frame 74 */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 277px;
+    top: 131px;
+    /* White */
+    background: #FFFFFF;
+    /* Background */
+    border: 1px solid #FAF9FD;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-image: url('../resources/portfolio_view/Frame74.png');
+}
+
+.portafolio-view .frame73 {
+    /* Frame 73 */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 160px;
+    top: 131px;
+    /* White */
+    background: #FFFFFF;
+    /* Background */
+    border: 1px solid #FAF9FD;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-image: url('../resources/portfolio_view/Frame73.png');
+}
+
+.portafolio-view .text {
+    /* Tu dinero se invierte de la forma más eficiente de acuerdo al perfil de riesgo asignado por nuestro RoboAdvisor. */
+    position: absolute;
+    width: 287px;
+    height: 28px;
+    left: 20px;
+    top: 181px;
+    /* Menu 1 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    /* 75% */
+    color: #58506B;
+}
+
+.portafolio-view .frame28 {
+    /* Frame 28 */
+    position: absolute;
+    width: 147px;
+    height: 103px;
+    right: 20px;
+    top: 20px;
+    /* White */
+    background: #FFFFFF;
+    background-image: url('../resources/portfolio_view/Frame28.png');
+}
+
+.portafolio-view .portafolio-holding-donut {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 20px;
+    top: 20px;
+    background-image: url('../resources/portfolio_view/portfolio/holding_donut.png');
+}
+
+.los-del-ahorro {
+    position: absolute;
+    width: 271px;
+    height: 25px;
+    left: 24px;
+    top: 1112px;
+    /* Subtitle 2 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* 75% */
+    color: #58506B;
+}
+
+.media-home {
+    /* media/home */
+    position: absolute;
+    width: 347px;
+    height: 290px;
+    top: 1157px;
+    /* White */
+    /* Card shadow 1 */
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+    background-image: url('../resources/media/home.png');
+}
+
+.counter {
+    /* Counter */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0px;
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    left: 38px;
+    top: 1457px;
+    background-image: url('../resources/Counter.png');
+}
+
+.blog-home {
+    /* blog/home */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    width: 280px;
+    height: 304px;
+    left: 24px;
+    top: 1497px;
+    /* White */
+    background: #FFFFFF;
+    /* Card shadow soft */
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+}
+
+.blog-home .preview1 {
+    /* home/blog/preview */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 287px;
+    height: 68px;
+    left: 20px;
+    top: 216px;
+    /* White */
+    background: #FFFFFF;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+
+.blog-home .preview1 .img {
+    /* IMG */
+    position: static;
+    width: 68px;
+    height: 68px;
+    left: 219px;
+    top: 0px;
+    border-radius: 20px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 17px 0px;
+    background-image: url('../resources/blog/home/blog/pre1.png');
+}
+
+.blog-home .preview1 .frame42 {
+    /* Frame 42 */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 202px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 17px 0px;
+}
+
+.blog-home .preview1 .frame42 .titulo {
+    /* 10 gastos que debes evitar */
+    position: static;
+    width: 202px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    /* Normal 1 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    /* 50% */
+    color: #817699;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 5px;
+}
+
+.blog-home .preview1 .frame42 .text {
+    /* recibió educación para el ahorro,
+    apenas el 44% ahorra de manera fomal. */
+    position: static;
+    width: 202px;
+    height: 42px;
+    left: 0px;
+    top: 26px;
+    /* Menu 1 */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    /* 75% */
+    color: #58506B;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 5px;
 }
